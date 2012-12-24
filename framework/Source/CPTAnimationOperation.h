@@ -33,7 +33,7 @@
 
 /// @name Delegate
 /// @{
-@property (nonatomic, assign) __cpt_weak NSObject<CPTAnimationDelegate> *delegate;
+@property (nonatomic, weak) __cpt_weak NSObject<CPTAnimationDelegate> *delegate;
 /// @}
 
 @end
