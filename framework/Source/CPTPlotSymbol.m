@@ -470,14 +470,16 @@
         layerSize.height += symbolMargin;
 
         self.anchorPoint = CPTPointMake(0.5, 0.5);
-        theCachedLayer   = CGLayerCreateWithContext(context, layerSize, NULL);
 
-        [self renderAsVectorInContext:CGLayerGetContext(theCachedLayer)
+        CGLayerRef newLayer = CGLayerCreateWithContext(context, layerSize, NULL);
+
+        [self renderAsVectorInContext:CGLayerGetContext(newLayer)
                               atPoint:CPTPointMake( layerSize.width * CPTFloat(0.5), layerSize.height * CPTFloat(0.5) )
                                 scale:scale];
 
-        self.cachedLayer = theCachedLayer;
-        CGLayerRelease(theCachedLayer);
+        self.cachedLayer = newLayer;
+        CGLayerRelease(newLayer);
+        theCachedLayer   = self.cachedLayer;
         self.anchorPoint = symbolAnchor;
     }
 
@@ -705,13 +707,11 @@
         {
             CGPathRef customPath = self.customSymbolPath;
             if ( customPath ) {
-                CGRect oldBounds                 = CGRectNull;
-                CGAffineTransform scaleTransform = CGAffineTransformIdentity;
+                CGRect oldBounds = CGPathGetBoundingBox(customPath);
+                CGFloat dx1      = symbolSize.width / oldBounds.size.width;
+                CGFloat dy1      = symbolSize.height / oldBounds.size.height;
 
-                oldBounds = CGPathGetBoundingBox(customPath);
-                CGFloat dx1 = symbolSize.width / oldBounds.size.width;
-                CGFloat dy1 = symbolSize.height / oldBounds.size.height;
-                scaleTransform = CGAffineTransformScale(CGAffineTransformIdentity, dx1, dy1);
+                CGAffineTransform scaleTransform = CGAffineTransformScale(CGAffineTransformIdentity, dx1, dy1);
                 scaleTransform = CGAffineTransformConcat( scaleTransform,
                                                           CGAffineTransformMakeTranslation(-halfSize.width, -halfSize.height) );
                 CGPathAddPath(symbolPath, &scaleTransform, customPath);

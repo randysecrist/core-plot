@@ -2422,7 +2422,7 @@
     </TokenIdentifier>
     <Path>_c_p_t_scatter_plot_8h.html</Path>
     <Anchor>a0a9d8cdea584afe83809167eedeca8daa61b6b90b68d1b6c1ba6330683ed700df</Anchor>
-    <Abstract>Steps beginnning at data point.</Abstract>
+    <Abstract>Steps beginning at data point.</Abstract>
     <DeclaredIn>CPTScatterPlot.h</DeclaredIn>
   </Token>
   <Token>
@@ -6430,7 +6430,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6833,6 +6833,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -7221,7 +7232,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7591,83 +7602,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>titleTextStyle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a54be876224c0bbc93964bf7b54e8fb99</Anchor>
-    <Abstract>The text style used to draw the axis title text.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>axisTitle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
-    <Abstract>The axis title. If nil, no title is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleOffset</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>group__axis_animation.html</Path>
-    <Anchor>gae68fb272fc8934a30842bcf31eb6ae9c</Anchor>
-    <Abstract>The offset distance between the axis title and the axis line.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>title</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
-    <Abstract>A convenience property for setting the text title of the axis.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleRotation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>group__axis_animation.html</Path>
-    <Anchor>gab127b0be3b73ef8d4be5f558f8c0df2f</Anchor>
-    <Abstract>The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleLocation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
-    <Abstract>The position along the axis where the axis title should be centered. If NaN (the default), the defaultTitleLocation will be used.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>defaultTitleLocation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>ace7cf1ff4de08b4f04d564e7779479ec</Anchor>
-    <Abstract>The position along the axis where the axis title should be centered if titleLocation is NaN...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>majorIntervalLength</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -7719,7 +7653,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a3a16c174519ce26e20538a238c6c4a5e</Anchor>
-    <Abstract>The number of ticks that should be targeted when autogenerating positions. This property only applies...</Abstract>
+    <Abstract>The number of ticks that should be targeted when auto-generating positions. This property only applie...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7929,6 +7863,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8178,6 +8123,95 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>titleTextStyle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a54be876224c0bbc93964bf7b54e8fb99</Anchor>
+    <Abstract>The text style used to draw the axis title text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
+    <Abstract>The axis title. If nil, no title is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleOffset</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>group__axis_animation.html</Path>
+    <Anchor>gae68fb272fc8934a30842bcf31eb6ae9c</Anchor>
+    <Abstract>The offset distance between the axis title and the axis line.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>title</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
+    <Abstract>A convenience property for setting the text title of the axis.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleRotation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>group__axis_animation.html</Path>
+    <Anchor>gab127b0be3b73ef8d4be5f558f8c0df2f</Anchor>
+    <Abstract>The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleLocation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
+    <Abstract>The position along the axis where the axis title should be centered. If NaN (the default), the defaultTitleLocation will be used.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>defaultTitleLocation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>ace7cf1ff4de08b4f04d564e7779479ec</Anchor>
+    <Abstract>The position along the axis where the axis title should be centered if titleLocation is NaN...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>updateAxisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
+    <Abstract>Update the axis title position.</Abstract>
+    <DeclaredIn>CPTAxis.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>labelingPolicy</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -8283,7 +8317,7 @@
       <Scope>CPTAxis</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a025b25c1f351db742f018f5b4e1bf757</Anchor>
+    <Anchor>ab05c383db96bfc1d86a9972fc9617f5a</Anchor>
     <Abstract>The number formatter used to format the label text. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., “Jan 10, 2010”). The CPTCalendarFormatter and CPTTimeFormatter classes are useful for this purpose.</Abstract>
   </Token>
   <Token>
@@ -8294,7 +8328,7 @@
       <Scope>CPTAxis</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a4d692b10fbbb4017d9fa560ab81728ca</Anchor>
+    <Anchor>aa5f163e5cc1be724e435a7ca73d015ba</Anchor>
     <Abstract>The number formatter used to format the label text of minor ticks. If you need a non-numerical label...</Abstract>
   </Token>
   <Token>
@@ -9057,7 +9091,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9448,6 +9482,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -9611,7 +9656,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10011,6 +10056,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11118,7 +11174,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11736,7 +11792,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -11859,6 +11915,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -12539,7 +12606,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -12842,13 +12909,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -14844,6 +14911,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>gradientType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGradient</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_gradient.html</Path>
+    <Anchor>abc7cbad384dae1e3d43ab8186ea43507</Anchor>
+    <Abstract>The gradient type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>angle</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -14855,14 +14933,25 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>gradientType</Name>
+      <Name>startAnchor</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
       <Scope>CPTGradient</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_gradient.html</Path>
-    <Anchor>abc7cbad384dae1e3d43ab8186ea43507</Anchor>
-    <Abstract>The gradient type.</Abstract>
+    <Anchor>acb9ad7f96778d1d33bd5a23b17aa2989</Anchor>
+    <Abstract>The anchor point for starting point of a radial gradient. Defaults to (0.5, 0.5) which centers the gr...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>endAnchor</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGradient</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_gradient.html</Path>
+    <Anchor>aab1d473cc6ae8b3d07f6197a062f6b90</Anchor>
+    <Abstract>The anchor point for ending point of a radial gradient. Defaults to (0.5, 0.5) which centers the grad...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15176,7 +15265,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ade1996ed526f4e64cb770c7a92e1a8b7</Anchor>
-    <Abstract>Informs the receiver that tracking of touches has been cancelled for any reason.</Abstract>
+    <Abstract>Informs the receiver that tracking of toucheshas been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15204,13 +15293,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -15784,46 +15873,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>awakeFromNib</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTGraphHostingView</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-    <Anchor>ad90154aa5faba3a168db8eb82d3e227d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>encodeWithCoder:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTGraphHostingView</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-    <Anchor>af47dc5c034d7c79f037157f3bce4be2e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithCoder:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTGraphHostingView</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-    <Anchor>a21462660eb1f15f3ea29ee4b8a3c811d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pinchGestureRecognizer</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CPTGraphHostingView</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-    <Anchor>a6bd1dffebe1484ddd8711743a2a32f3d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>hostedGraph</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -15904,6 +15953,66 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
     <Anchor>//apple_ref/occ/clm/NSObject/new</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>classForCoder</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/classForCoder</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>copy</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/copy</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dealloc</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/dealloc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>finalize</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/finalize</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/init</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mutableCopy</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/mutableCopy</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15992,7 +16101,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16406,6 +16515,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -16747,7 +16867,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17158,6 +17278,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17834,7 +17965,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18296,6 +18427,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18964,13 +19106,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -19086,7 +19228,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -23277,7 +23419,7 @@
       <Scope>CPTNumericDataType</Scope>
     </TokenIdentifier>
     <Path>struct_c_p_t_numeric_data_type.html</Path>
-    <Abstract>Struct that describes the encoding of numeric data samples.</Abstract>
+    <Abstract>Structure that describes the encoding of numeric data samples.</Abstract>
     <DeclaredIn>CPTNumericDataType.h</DeclaredIn>
   </Token>
   <Token>
@@ -23868,7 +24010,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -24442,7 +24584,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -24565,6 +24707,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25353,7 +25506,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25808,6 +25961,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26376,7 +26540,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -26737,7 +26901,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27228,6 +27392,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -27506,13 +27681,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -27628,7 +27803,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28333,7 +28508,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28732,6 +28907,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -29317,7 +29503,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>ac13506e5cd0a592d71a822a711ed7b10</Anchor>
-    <Abstract>Informs the receiver that tracking of touches has been cancelled for any reason.</Abstract>
+    <Abstract>Informs the receiver that tracking of toucheshas been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -31233,7 +31419,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -31763,7 +31949,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -31886,6 +32072,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32485,7 +32682,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_responder-p.html</Path>
     <Anchor>ae1e168c2cf883e9567e18a2ec7c1554c</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
     <DeclaredIn>CPTResponder.h</DeclaredIn>
   </Token>
   <Token>
@@ -33105,7 +33302,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -33657,7 +33854,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -33780,6 +33977,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34676,13 +34884,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -34798,7 +35006,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -36384,7 +36592,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -36958,7 +37166,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -37081,6 +37289,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -37791,6 +38010,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>updateAxisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
+    <Abstract>Update the axis title position.</Abstract>
+    <DeclaredIn>CPTAxis.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>relabel</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -37962,7 +38193,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -38354,83 +38585,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>titleTextStyle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a54be876224c0bbc93964bf7b54e8fb99</Anchor>
-    <Abstract>The text style used to draw the axis title text.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>axisTitle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
-    <Abstract>The axis title. If nil, no title is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleOffset</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>group__axis_animation.html</Path>
-    <Anchor>gae68fb272fc8934a30842bcf31eb6ae9c</Anchor>
-    <Abstract>The offset distance between the axis title and the axis line.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>title</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
-    <Abstract>A convenience property for setting the text title of the axis.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleRotation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>group__axis_animation.html</Path>
-    <Anchor>gab127b0be3b73ef8d4be5f558f8c0df2f</Anchor>
-    <Abstract>The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleLocation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
-    <Abstract>The position along the axis where the axis title should be centered. If NaN (the default), the defaultTitleLocation will be used.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>defaultTitleLocation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>ace7cf1ff4de08b4f04d564e7779479ec</Anchor>
-    <Abstract>The position along the axis where the axis title should be centered if titleLocation is NaN...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>majorIntervalLength</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -38482,7 +38636,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a3a16c174519ce26e20538a238c6c4a5e</Anchor>
-    <Abstract>The number of ticks that should be targeted when autogenerating positions. This property only applies...</Abstract>
+    <Abstract>The number of ticks that should be targeted when auto-generating positions. This property only applie...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -38596,6 +38750,83 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>titleTextStyle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a54be876224c0bbc93964bf7b54e8fb99</Anchor>
+    <Abstract>The text style used to draw the axis title text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
+    <Abstract>The axis title. If nil, no title is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleOffset</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>group__axis_animation.html</Path>
+    <Anchor>gae68fb272fc8934a30842bcf31eb6ae9c</Anchor>
+    <Abstract>The offset distance between the axis title and the axis line.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>title</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
+    <Abstract>A convenience property for setting the text title of the axis.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleRotation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>group__axis_animation.html</Path>
+    <Anchor>gab127b0be3b73ef8d4be5f558f8c0df2f</Anchor>
+    <Abstract>The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleLocation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
+    <Abstract>The position along the axis where the axis title should be centered. If NaN (the default), the defaultTitleLocation will be used.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>defaultTitleLocation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>ace7cf1ff4de08b4f04d564e7779479ec</Anchor>
+    <Abstract>The position along the axis where the axis title should be centered if titleLocation is NaN...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>labelingPolicy</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -38701,7 +38932,7 @@
       <Scope>CPTAxis</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a025b25c1f351db742f018f5b4e1bf757</Anchor>
+    <Anchor>ab05c383db96bfc1d86a9972fc9617f5a</Anchor>
     <Abstract>The number formatter used to format the label text. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., “Jan 10, 2010”). The CPTCalendarFormatter and CPTTimeFormatter classes are useful for this purpose.</Abstract>
   </Token>
   <Token>
@@ -38712,7 +38943,7 @@
       <Scope>CPTAxis</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a4d692b10fbbb4017d9fa560ab81728ca</Anchor>
+    <Anchor>aa5f163e5cc1be724e435a7ca73d015ba</Anchor>
     <Abstract>The number formatter used to format the label text of minor ticks. If you need a non-numerical label...</Abstract>
   </Token>
   <Token>
@@ -38923,6 +39154,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -39291,7 +39533,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of toucheshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -39724,6 +39966,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40283,7 +40536,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ade1996ed526f4e64cb770c7a92e1a8b7</Anchor>
-    <Abstract>Informs the receiver that tracking of touches has been cancelled for any reason.</Abstract>
+    <Abstract>Informs the receiver that tracking of toucheshas been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40311,13 +40564,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -40874,7 +41127,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>ac13506e5cd0a592d71a822a711ed7b10</Anchor>
-    <Abstract>Informs the receiver that tracking of touches has been cancelled for any reason.</Abstract>
+    <Abstract>Informs the receiver that tracking of toucheshas been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

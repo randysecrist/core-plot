@@ -1,6 +1,3 @@
-#import <Foundation/Foundation.h>
-#import <QuartzCore/QuartzCore.h>
-
 #import "CPTAnimation.h"
 #import "CPTDefinitions.h"
 
@@ -33,7 +30,7 @@
 
 /// @name Delegate
 /// @{
-@property (nonatomic, weak) __cpt_weak NSObject<CPTAnimationDelegate> *delegate;
+@property (nonatomic, cpt_weak_property) __cpt_weak NSObject<CPTAnimationDelegate> *delegate;
 /// @}
 
 @end
